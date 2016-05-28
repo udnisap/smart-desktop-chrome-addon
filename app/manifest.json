@@ -9,20 +9,22 @@
   },
   "default_locale": "en",
   "background": {
-    "scripts": [
-      "scripts/chromereload.js",
-      "scripts/background.js"
-    ]
+    "scripts": ["./scripts/websocket.js", "./scripts/RTCMultiConnection.min.js", "./scripts/CodecsHandler.js", "./scripts/desktop-capturing.js"],
+    "persistent": false
   },
   "permissions": [
-    "tabs"
+    "tabs", "desktopCapture", "storage"
   ],
   "browser_action": {
     "default_icon": {
       "19": "images/icon-19.png",
       "38": "images/icon-38.png"
     },
-    "default_title": "VR Desktop",
-    "default_popup": "popup.html"
+    "default_title": "VR Desktop"
+//    "default_popup": "popup.html"
+  }                 ,
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
   }
 }
