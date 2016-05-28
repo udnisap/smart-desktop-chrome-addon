@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>VR Desktop</title>
+
+
+  <!-- Bootstrap -->
+  <link href="./styles/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body{
+    width:700px;
+    height:500px;
+    }
+  </style>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->
+  <!--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
+
+  <script src="scripts/qrcode.js"></script>
+
+
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"/>-->
+  <![endif]-->
+</head>
+<body>
+<div class="container">
+  <!--<div class="header clearfix">-->
+  <!--<nav>-->
+  <!--<ul class="nav nav-pills pull-right">-->
+  <!--<li role="presentation" class="active"><a href="#">Home</a></li>-->
+  <!--<li role="presentation"><a href="#">About</a></li>-->
+  <!--<li role="presentation"><a href="#">Contact</a></li>-->
+  <!--</ul>-->
+  <!--</nav>-->
+  <!--<h3 class="text-muted">Project name</h3>-->
+  <!--</div>-->
+
+  <div class="jumbotron">
+    <h1>Virtual Desktop</h1>
+
+    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus
+      commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
+    <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+  </div>
+
+  <div class="row">
+    <h3>Connect your device</h3>
+    <div class="col-lg-3 col-md-6 col-xs-6">
+      <h4>Scan this QR code  </h4>
+      <div id="qrcode"></div>
+    </div>
+    <div class="col-xs-2 col-md-6 col-xs-6">
+      <h4>or</h4>
+
+    </div>
+    <div class="col-xs-4 col-md-6 col-xs-6">
+      <h4>Use this link</h4>
+      <a id="url">https://localhost:3001/</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <h3>Configure your environment</h3>
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+      <h4>Background</h4>
+    </div>
+    <br>
+  </div>
+  <div class="row">
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="img/galaxy-full.png" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="img/natural-all.png" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="img/night.png" alt="...">
+      </a>
+    </div>
+
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="img/cube.jpg" alt="...">
+      </a>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <h4>Screen size</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3 col-md-3">
+      Width:
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <input type="range" name="width">
+    </div>
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div class="col-xs-3 col-md-3">
+      Height:
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <input type="range" name="height">
+    </div>
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div class="col-xs-3 col-md-3">
+      Distance:
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <input type="range" name="distance">
+    </div>
+  </div>
+
+  <div class="col-xs-6 col-md-3">
+    <div class="row">
+
+      <footer class="footer">
+        <p>&copy; 2015 Company, Inc.</p>
+      </footer>
+
+    </div>
+  </div>
+  <!-- /container -->
+
+  <!-- build:js scripts/popup-vendor.js -->
+  <!-- bower:js -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/popup.js -->
+  <script src="scripts/popup.js"></script>
+  <!-- endbuild -->
+</body>
+</html>
