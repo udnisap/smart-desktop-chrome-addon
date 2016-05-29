@@ -17,6 +17,6 @@
 
 
 var sessionId= window.location.search.replace("?", "");
-var url = 'http://ssdsd?key='+sessionId;
+var url = 'https://udnisap.js.org/smart-desktop/view/?'+sessionId;
 console.log(url)
 drawURL(url)
