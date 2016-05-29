@@ -475,6 +475,7 @@ function setupRTCMultiConnection(stream) {
 
         var popup_width = 600;
         var popup_height = 170;
+        alert()
          chrome.windows.create({url: "popup.html?"+connection.sessionid});
 //        chrome.runtime.sendMessage({type: 'sessionInit', id:connection.sessionid});
 //
