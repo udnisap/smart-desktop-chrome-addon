@@ -4,8 +4,8 @@
   "manifest_version": 2,
   "description": "__MSG_appDescription__",
   "icons": {
-    "16": "images/icon-16.png",
-    "128": "images/icon-128.png"
+    "16": "images/virtual-desktop-icon.png",
+    "128": "images/virtual-desktop-icon.png"
   },
   "default_locale": "en",
   "background": {
@@ -17,10 +17,10 @@
   ],
   "browser_action": {
     "default_icon": {
-      "19": "images/icon-19.png",
-      "38": "images/icon-38.png"
+      "19": "images/virtual-desktop-icon.png",
+      "38": "images/virtual-desktop-icon.png"
     },
-    "default_title": "VR Desktop"
+    "default_title": "Smart Desktop"
 //    "default_popup": "popup.html"
   }                 ,
   "options_ui": {
